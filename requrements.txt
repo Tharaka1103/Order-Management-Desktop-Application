@@ -1,0 +1,7 @@
+```text:requirements.txt
+pandas
+gspread
+oauth2client
+Pillow
+ttkthemes
+openpyxl
