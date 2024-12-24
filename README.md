@@ -35,7 +35,12 @@ cd trimids-order-manager
 
 3. Install required dependencies
 ```bash
-pip install -r requirements.txt
+py -m pip install pandas gspread oauth2client pyinstaller ttkthemes datetime openpyxl pillow
+```
+
+4. Finally convert the .py file to .exe file
+```bash
+py -m PyInstaller --onefile --windowed order_manager.py 
 ```
 
 ### Detailed Google Sheets & Credentials Setup
